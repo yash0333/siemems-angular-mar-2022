@@ -1,0 +1,5 @@
+<div>
+    <input type="text" #searchText (input)="onSerachTextChnage(searchText.value)"/>
+    <input type="checkbox" (click)="onOnlyStockedChange($event)"/>
+    <label>Only show products in Stock</label>
+</div>
